@@ -1,0 +1,28 @@
+{
+  "name": "next-nest",
+  "version": "1.0.0",
+  "description": "",
+  "workspaces": [
+    "apps/*"
+  ],
+  "keywords": [
+    "nest",
+    "next",
+    "turborepo",
+    "next-auth",
+    "supabase"
+  ],
+  "devDependencies": {
+    "tsconfig": "*",
+    "turbo": "latest"
+  },
+  "main": "index.js",
+  "author": "",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "license": "ISC"
+}
